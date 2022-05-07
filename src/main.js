@@ -103,4 +103,7 @@ function getCheapestHotel (input) { //DO NOT change the function's name.
     return cheapestHotel.name;
 }
 
+exports.isRewardClient = isRewardClient
+exports.isWeekend = isWeekend
+exports.getDayFromDateString = getDayFromDateString
 exports.getCheapestHotel = getCheapestHotel
